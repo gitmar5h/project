@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Bahnschrift;   
+    
+}
+
+
+
+body {
+    background-color: rgb(9, 9, 11);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -4px 20px rgba(255, 217, 0, 0.303);
+    
+}
+
+.marshlogo {
+   width: 10rem;
+   margin-left: 7rem;
+   
+}
+
+ div.rightsidediv {
+
+   display: flex;
+   gap: 4rem;
+   align-items: center;
+   margin-right: 5rem;  
+   
+
+}
+
+button {
+    background-image: linear-gradient(to right, gold, orange, yellow, white, white, gold, gold);
+    color: black;
+    padding: .3rem;
+}
+
+
+.chatbtn {
+    width: 6rem;
+    height: 2.3rem;
+    border-radius: .5rem;
+ 
+    
+    
+}
+
+ div.section1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+
+ }
+
+ .left1stsec {
+    margin-top: 9rem;
+    
+    
+    
+ }
+
+ .himarsh {
+    font-size: 4rem;
+ }
+
+ .himarsh span {
+    color: gold;
+ }
+
+ .left1stsec h3 {
+    font-size: 2rem;
+    
+ }
+
+ .left1stsec h3 span {
+    color: gold;
+ }
+
+ .left1stsec button {
+    width: 6rem;
+    height: 2rem;
+   margin-top: 1rem;
+   border-radius: .5rem;
+   
+ }
+
+ div.right1stsec {
+    margin-top: 3rem;
+    display: flex;
+    
+
+ }
+
+ .socialicons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 3rem;
+ 
+ }
+
+ .socialicon {
+    border-radius: 50%;
+    color: black;
+    background: gold;
+    padding: .5rem;
+
+ }
+
+
+ 
+div.section2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.left2ndsec img {
+   width: 23rem;
+   margin-left: -2rem;
+}
+
+
+div.right2ndsec {
+    margin-top: 4rem;
+    
+ 
+}
+
+.right2ndsec h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.right2ndsec h3 {
+    font-size: 1.5rem;
+    margin-top: 0.09rem;
+    color: gold;
+    
+}
+
+
+.right2ndsec p span {
+    color: gold;
+}
+
+.foliocons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -4rem;
+    padding: .6rem;
+}
+
+.foliocons button {
+    padding: .53rem;
+    border-radius: .5rem;
+    
+}
+
+.jscontextdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: small;
+    
+}
+
+.jscon {
+    border: 1px solid gold;
+    border-radius: 50%;
+    padding: .15rem;
+    color: gold;
+    
+    
+}
+
+
+
+
+.jscontext {
+    font-size: .6rem;
+    font-weight: lighter;
+   margin-left: 1rem;
+}
+
+.jsconh5 {
+        font-size: 1rem;
+}
+ 
+div .jscontextdiv .jsconh5 .jscon {
+    font-size: .7rem;
+    margin-left: -.5rem;
+}
+
+
+.section3 h5 {
+
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    
+}
+
+.section3 h5 span {
+    color: gold;
+}
+
+.weoffer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.weofferpics {
+    width: 18rem;
+}
+
+.offerdiv {
+    border-radius: .7rem;
+    box-shadow: 0 8px 15px rgba(255, 217, 0, 0.316);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.offertext h3 {
+    font-size: 1.3rem;
+}
+
+.offertext p {
+    font-size: small;
+    margin-top: .4rem;
+}
+
+.offertext {
+    margin-top: 2rem;
+}
+
+.offertext button {
+    margin-top: .8rem;
+    padding: .3rem;
+    border-radius: .4rem;
+}
+
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 20rem;
+
+}
+
+.intouch {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(255, 217, 0, 0.505);
+    
+    
+   
+}
+
+.intouchpic img {
+    width: 15rem;
+}
+
+.intouchtext {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: larger;
+    margin-left: 2rem;
+}
+
+.intouchtext button {
+    width: 8rem;
+    height: 2rem;
+    border-radius: .6rem;
+}
+
+.intouchtext h5 { 
+    color: gold;
+    
+}
+
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: x-large;
+}
+
+.section5 button {
+        padding: .4rem;
+        border-radius: .4rem;
+}
+
+div .sec5btns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.section5 h5 {
+    color: gold;
+}
+
+.Creativediv {
+    display: grid;
+    grid-template-columns: .3fr .3fr;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+    text-align: left;
+    justify-items: center;
+    margin-top: 2rem;
+    
+    
+}
+
+.Creativedivh5 {
+    font-size: small;
+    box-shadow: -1.7px -4px 1px rgba(255, 217, 0, 0.505);
+    border-radius: .4rem;
+    width: 7.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0rem .3rem;
+    margin-left: -.5rem;
+    margin-top: -6rem;
+    border-bottom: none;
+
+    
+    
+    
+}
+
+
+
+.bastard {
+    margin-top: -7.5rem;
+}
+ 
+
+.Creativedivh3 {
+    font-size: 1.4rem;
+}
+
+.Creativedivp {
+    font-size: small;
+}
+
+.Creativedivimg {
+    width: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
+
+}
+
+.Creativedivbox {
+    display: flex;
+    align-items: center;    
+    padding: 2rem 2.5rem;
+    height: 10rem;
+    width: 20rem;
+    gap: 1.4rem;
+    margin-top: 2rem;
+    border-radius: .4rem;
+    box-shadow: 0px 5px 1px rgba(255, 217, 0, 0.505);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+
+}
+.Creativedivbox button {
+    margin-top: 2rem;
+}
+
+.unkown {
+    margin-top: 3rem;
+    
+}
+
+.unknown2 {
+    margin-left: -2rem;
+}
+
+.section6div {
+      display: flex;
+      justify-content: space-evenly;
+     align-items: center;
+
+}
+
+.section6h4 {
+    text-align: center;
+    margin-top: 3rem;
+    color: gold;
+}
+
+
+.formpangolo {
+    border-radius: .4rem;
+    box-shadow: 0px 5px 1px rgba(255, 217, 0, 0.505);
+    width: 30rem;
+    height: 15rem;
+    padding: 2rem;
+   
+}
+
+.mainform {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 10rem;
+    gap: 1rem;
+    
+}
+
+.form {
+    padding: .3rem;
+    border-radius: .4rem;
+    
+    
+}
+
+
+
+.bigform {
+    width: 25rem;
+    padding-bottom: 4rem;
+    
+}
+
+.section6 button {
+    padding: .5rem;
+    margin-top: 4rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: .4rem;
+}
+
+.sec6img {
+    width: 27rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    
+    
+    
+   
+}
+
+footer img {
+    width: 7rem;
+   
+    
+}
+
+
+.footerdiv h6 {
+    margin-bottom: 1rem;
+    
+}
+
+.socialiconfooter {
+    border-radius: 50%;
+    color: black;
+    background: gold;
+    padding: .4rem .5rem;
+   
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: small;
+    border-top: 1px solid gold;
+}
